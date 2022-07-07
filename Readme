@@ -1,0 +1,17 @@
+Passo a Passo:
+
+Criado arq Readme
+
+Criada a pasta: Projeto_encurtador
+Criado o ambiente virtual .venv
+Instalado o django
+Criado o projeto proj_encurtador
+Criado o app encurtador
+Criada a pasta static/css/ com um arquivo style.css (estilo criado para texte simples)
+Criada a pasta templates/ index.html (estrutura inicial para o front)
+Criado modulo encurtador/ urls.py
+Atualizado proj_encurtador/ settings.py (Acrescentado app 'encurtador' na ultima linha do INSTALLED_APPS)
+Criado arq requirements.txt com as dependencias do projeto (LEMBRAR DE ATUALIZAR QUANDO NECESSARIO)
+Atualizado proj_encurtador/ modulo settings.py (incluida rota para o urls do app encurtador)
+Atualizado encurtador/ modulo views.py (incluida def index, que renderiza o index.html)
+Atualizado encurtador/ modulo urls.py (incluida rota views.py.index)
